@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "from": "Royal",
+    "body": "lorem ipsum dorem lorem psum tixst roasd bleh mehn seh",
+    "time": "5:30"
+  },
+  {
+    "id": 2,
+    "from": "Test2",
+    "body": "lorem ipsum dorem lorem psum tixst roasd bleh mehn seh",
+    "time": "6:30"
+  },
+  {
+    "id": 3,
+    "from": "Test3",
+    "body": "lorem ipsum dorem lorem psum tixst roasd bleh mehn seh",
+    "time": "7:30",
+    "label": "spam"
+  },
+  {
+    "id": 4,
+    "from": "Test4",
+    "body": "lorem ipsum dorem lorem psum tixst roasd bleh mehn seh",
+    "time": "4:30"
+  },
+  {
+    "id": 5,
+    "from": "test5",
+    "body": "lorem ipsum dorem lorem psum tixst roasd bleh mehn seh",
+    "time": "9:30",
+    "label": "spam"
+  }
+]

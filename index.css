@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  margin-top: 20px;
+}
+.ptr {
+  cursor: pointer;
+}
+
+.header {
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 0px 3px black;
+  position: relative;
+  z-index: 1;
+}
+.header > span {
+  font-size: 30px;
+  color: rgb(114, 113, 113);
+}
+.email__container {
+  display: flex;
+}
+
+.sidebar {
+  max-width: 300px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  box-shadow: 1px 0px 2px rgb(197, 195, 195);
+  height: 100vh;
+  flex-basis: 40%;
+}
+
+.sidebar div {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(36, 34, 34);
+  width: 90%;
+  border-right: 0;
+}
+.compose {
+  background: white;
+  box-shadow: 1px 0px 2px rgb(197, 195, 195);
+  text-align: center;
+  color: rgb(238, 119, 39) !important;
+  width: 90%;
+  height: 60px;
+  border-right: 0;
+  /* justify-self: center; */
+  border-radius: 50px;
+}
+
+.selected {
+  background: rgba(121, 121, 223, 0.657);
+  box-shadow: 1px 0px 2px rgb(197, 195, 195);
+  text-align: center;
+  color: white !important;
+  width: 90%;
+  border-right: 0;
+  /* border-radius: 50px; */
+}
+.content {
+  flex-basis: 60%;
+}
+.card {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  height: 61px;
+  padding: 36px;
+  box-shadow: 1px 0px 2px rgb(197, 195, 195);
+  align-items: center;
+}
+.body {
+  flex-basis: 60%;
+}
